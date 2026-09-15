@@ -1,0 +1,13 @@
+body {
+    background-color: #080808;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #1B1B1B;
+    color: #9C9C9C;
+    height: 50px;
+    align-items: center;
+    margin: 0;
+}
