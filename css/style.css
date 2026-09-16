@@ -20,12 +20,17 @@ body {
     width: 400px;
     height: 550px;
     margin: 0 auto;
-    border-radius: 16px;
-    
+    border-radius: 16px; 
     position: sticky;
     top: 20px;
     align-self: start;
     animation: fadeOut 2.5s;
+    transform: translateY(0);
+    transition: transform 0.5s;
+}
+
+.photo-card:hover {
+  transform: translateY(-8px);
 }
 
 .imag-icon{
@@ -158,3 +163,46 @@ body {
     opacity: 1;
   }
 }
+
+@media (max-width: 1000px) {
+
+    .my-container {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-card{
+        position: static;
+    }
+
+    .sec-title{
+        text-align: center;
+    }
+
+    .sec-parg{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .project-card{
+        margin: 0 auto;
+    }
+
+    .name-email-form{
+        grid-template-columns: 1fr;
+    }
+
+    .form-input{
+        margin: 0 auto;
+    }
+    .form-label{
+        text-align:center;
+    }
+    .form-submit{
+        display: block;
+        margin: 0 auto;
+    }
+    .ff{
+        margin: 0 auto;
+    }
+}
+

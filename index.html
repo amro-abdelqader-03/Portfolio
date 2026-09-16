@@ -11,18 +11,18 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark m-3">
         <div class="container-fluid justify-content-center">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav flex-row flex-wrap m-2">
                 <li class="nav-item m-2">
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item m-2">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about-sec">About Me</a>
                 </li>
                 <li class="nav-item m-2">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#project-sec">Projects</a>
                 </li>
                 <li class="nav-item m-2">
-                    <a class="nav-link" href="#">Get In Touch</a>
+                    <a class="nav-link" href="#contect-form">Get In Touch</a>
                 </li>
             </ul>
         </div>
@@ -45,11 +45,11 @@
                 <p class="sec-title">Full-Stack <br><span class="sec-title-lword">Developer</span></p>
                 <p class="sec-parg">Passionate about building modern digital experiences. Specialize in full-stack development and AI-powered solutions. Turning ideas into scalable, user-focused products.</p>
             </main>
-            <section class="about-sec">
+            <section id="about-sec">
                 <p class="sec-title">About <br><span class="sec-title-lword">me</span></p>
                 <p class="sec-parg">I’m a Full-Stack Developer and AI enthusiast passionate about turning ideas into practical digital solutions. I build modern, responsive web applications using Python, Laravel, React, APIs, and databases. I enjoy solving problems, learning new technologies, and creating clean, scalable, and user-focused applications that deliver real value.</p>
             </section>
-            <section class="project-sec">
+            <section id="project-sec">
                 <p class="sec-title">RECENT <br><span class="sec-title-lword">PROJECTS</span></p>
                 <div class="project-card">
                     <div>
@@ -102,7 +102,7 @@
                 </div>
             </section>
 
-            <section class="contect-form">
+            <section id="contect-form">
                 <p class="sec-title">LET'S WORK <br><span class="sec-title-lword">TOGETHER</span></p>
                 <form>
                     <div class="name-email-form">
@@ -129,9 +129,9 @@
         </div>
     </div>
 
-    <footer class="bg-dark text-secondary py-3 mt-4">
+    <footer class="text-secondary py-3 mt-4" id="ff">
     <div class="container">
-        <div class="d-flex flex-md-row justify-content-between">
+        <div class="d-flex flex-md-row text-center justify-content-between">
 
             <div>
                 &copy; 2026 My Awesome Website. All rights reserved.
