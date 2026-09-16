@@ -130,8 +130,8 @@ portfolio/
 │       ├── Email.svg
 │       ├── LinkedIn.svg
 │       ├── GitHub.svg
-│       ├── Ellipse 1.svg
-│       ├── Group 4.svg
+│       ├── circle-icon.svg
+│       ├── circle-robot-icon.svg
 │       └── Up Right.svg
 │
 └── README.md
