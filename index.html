@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+
     <title>Amro Abdelqader</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="nav-item">Home</div>
-        <div class="nav-item">About Me</div>
-        <div class="nav-item">Projects</div>
-        <div class="nav-item">Get In Touch</div>
+    <nav class="navbar navbar-expand-lg navbar-dark m-3">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#">Get In Touch</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="container">
-        <div class="card">
+    <div class="my-container">
+        <div class="photo-card">
             <div class="imag-icon">
                 <img class="circle-icon" src="/assets/icons/Ellipse 1.svg">
                 <img class="photo" src="/assets/myPhoto.png" width="200px" height="250px">
@@ -94,19 +108,19 @@
                     <div class="name-email-form">
                         <div>
                             <label class="form-label" for="name">
-                                Name<br>
+                                Name
                             </label>
                             <input class="form-input" type="text" name="name" placeholder="Your Name" required>
                         </div>
                         <div>
                             <label class="form-label" for="email">
-                                Email<br>
+                                Email
                             </label>
                             <input class="form-input" type="email" name="email" placeholder="your@email.com" required>
                         </div>
                     </div>
                     <label class="form-label" for="message">
-                        Your Message:<br>
+                        Your Message:
                     </label>
                     <textarea class="form-input" name="message" rows="4" cols="70" placeholder="Type your message here..."></textarea><br><br>
                     <input class="form-submit" type="submit">
@@ -115,17 +129,31 @@
         </div>
     </div>
 
-    <footer class="footer-bar">
-        <div class="footer-parg">
-            &copy; 2026 My Awesome Website. All rights reserved.
+    <footer class="bg-dark text-secondary py-3 mt-4">
+    <div class="container">
+        <div class="d-flex flex-md-row justify-content-between">
+
+            <div>
+                &copy; 2026 My Awesome Website. All rights reserved.
+            </div>
+
+            <div class="d-flex gap-3">
+                <div>
+                    <img src="/assets/icons/WhatsApp.svg" width="30" height="30" alt="WhatsApp">
+                </div>
+                <div>
+                    <img src="/assets/icons/Email.svg" width="30" height="30" alt="Email">
+                </div>
+                <div>
+                    <img src="/assets/icons/LinkedIn.svg" width="30" height="30" alt="LinkedIn">
+                </div>
+                <div>
+                    <img src="/assets/icons/GitHub.svg" width="30" height="30" alt="GitHub">
+                </div>
+            </div>
         </div>
-        <div class="footer-icons">
-            <div><img src="/assets/icons/WhatsApp.svg" width="30px" height="30px"></div>
-            <div><img src="/assets/icons/Email.svg" width="30px" height="30px"></div>
-            <div><img src="/assets/icons/LinkedIn.svg" width="30px" height="30px"></div>
-            <div><img src="/assets/icons/GitHub.svg" width="30px" height="30px"></div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
 </body>
 </html>
