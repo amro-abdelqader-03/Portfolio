@@ -1,5 +1,6 @@
 body {
     background-color: #080808;
+    height: 10000px;
 }
 .nav-bar{
     display: flex;
@@ -9,5 +10,22 @@ body {
     color: #9C9C9C;
     height: 50px;
     align-items: center;
-    margin: 0;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    
+    position: sticky;
+    top: 100px;
 }
