@@ -96,7 +96,7 @@ body {
     grid-template-columns: 500px 30px;
     animation: fadeOut 2.5s;
     width: 530px;
-    
+    color: white;
     transform: translateY(0);
     transition: transform 0.5s;
 }
@@ -104,6 +104,10 @@ body {
 .project-card:hover {
   transform: translateY(-8px);
   background-color: #1B1B1B;
+}
+
+.link{
+    text-decoration: none;
 }
 
 .project-title{
