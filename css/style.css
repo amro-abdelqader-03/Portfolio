@@ -1,18 +1,82 @@
 /* general */
 
+:root {
+    color-scheme: dark;
+    --page-bg: #080808;
+    --primary-text: #ffffff;
+    --muted-text: #9c9c9c;
+    --surface: #1b1b1b;
+    --card-bg: #ffffff;
+    --card-text: #000000;
+    --input-bg: #434343;
+    --accent: #0095ff;
+}
+
+body:has(#theme-toggle:checked) {
+    color-scheme: light;
+    --page-bg: #f4f4f0;
+    --primary-text: #171717;
+    --muted-text: #626262;
+    --surface: #e2e2dc;
+    --card-bg: #171717;
+    --card-text: #ffffff;
+    --input-bg: #ffffff;
+    --accent: #006fbd;
+}
+
 html {
 
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #080808;
+    background-color: var(--page-bg);
+    color: var(--primary-text);
+    transition: background-color 0.3s, color 0.3s;
 }
+
+#theme-toggle {
+    display: none;
+}
+
+.theme-button {
+    align-items: center;
+    padding: 10px;
+    border: 1px solid var(--muted-text);
+    border-radius: 16px;
+    color: var(--primary-text);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.theme-toggle:hover {
+    background-color: var(--surface);
+}
+
+.navbar .nav-link {
+    color: var(--primary-text);
+}
+
+.navbar .nav-link:hover {
+    color: var(--accent);
+}
+
+body:has(#theme-toggle:checked) .theme-toggle-text {
+    font-size: 0;
+}
+
+body:has(#theme-toggle:checked) .theme-toggle-text::after {
+    content: 'Dark mode';
+    font-size: 12px;
+}
+
 
 .my-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: white;
+    color: var(--primary-text);
     margin-top: 50px;
     align-items: start;
 }
@@ -20,7 +84,7 @@ body {
 /* photo card sec */
 
 .photo-card{
-    background-color: #FFFFFF;
+    background-color: var(--card-bg);
     width: 400px;
     height: 550px;
     margin: 0 auto;
@@ -62,7 +126,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: bold;
-    color: black;
+    color: var(--card-text);
     margin: 15px;
 }
 
@@ -72,7 +136,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #9C9C9C;
+    color: var(--muted-text);
     margin: 0 20px;
 }
 
@@ -92,7 +156,7 @@ body {
 }
 
 .sec-title-lword{
-    color: #9C9C9C;
+    color: var(--muted-text);
     display: inline;
 }
 
@@ -122,28 +186,28 @@ body {
 
 .education-card:hover {
   transform: translateY(-8px);
-  background-color: #1B1B1B;
+    background-color: var(--surface);
 }
 
 .education-title{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: var(--primary-text);
 }
 
 .education-name{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: bold;
-    color: #9C9C9C;
+    color: var(--muted-text);
     margin-bottom: 0;
 }
 
 .education-parg{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    color: #9C9C9C;
+    color: var(--muted-text);
 }
 
 /* project section */
@@ -153,14 +217,14 @@ body {
     grid-template-columns: 500px 30px;
     animation: fadeOut 2.5s;
     width: 530px;
-    color: white;
+    color: var(--primary-text);
     transform: translateY(0);
     transition: transform 0.5s;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  background-color: #1B1B1B;
+    background-color: var(--surface);
 }
 
 .link{
@@ -176,7 +240,7 @@ body {
 .project-parg{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    color: #9C9C9C;
+    color: var(--muted-text);
 }
 
 /* skill section */
@@ -201,22 +265,22 @@ body {
 
 .skill-card:hover{
     transform: translateY(-8px);
-    background-color: #1B1B1B;
+    background-color: var(--surface);
 }
 
 .skill-logo{
-    background-color: #FFFFFF;
+    background-color: var(--card-bg);
     border-radius: 16px;
 }
 
 .skill-title{
-    color: #FFFFFF;
+    color: var(--primary-text);
     font-size: 16px;
     margin-bottom: 5px;
 }
 
 .skill-desc{
-    color: #9C9C9C;
+    color: var(--muted-text);
     font-size: 14px;
 }
 
@@ -231,14 +295,14 @@ body {
 .form-label{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    color: #9C9C9C;
+    color: var(--muted-text);
     display: block;
     animation: fadeOut 2.5s;
 }
 
 .form-input{
-    background-color: #434343;
-    color: #FFFFFF;
+    background-color: var(--input-bg);
+    color: var(--primary-text);
     border: none;
     border-radius: 8px;
     text-align: center;
@@ -247,12 +311,12 @@ body {
 }
 
 .form-submit{
-    background-color: #0095FF;
+    background-color: var(--accent);
     width: 540px;
     text-align: center;
     border-radius: 16px;
     border: none;
-    color: white;
+    color: var(--primary-text);
     height: 30px;
     animation: fadeOut 2.5s;
 }
