@@ -113,6 +113,7 @@ body {
     gap: 10px;
     transform: translateY(0);
     transition: transform 0.5s;
+    animation: fadeOut 2.5s;
 }
 
 .education-card:hover {
