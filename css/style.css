@@ -179,6 +179,24 @@ body {
     color: #9C9C9C;
 }
 
+/* skill section */
+
+.skill-contaier{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.skill-card{
+    display: grid;
+    grid-template-columns: 70px 100px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px;
+}
+
 /* form seaction (contact me) */
 
 .name-email-form{
