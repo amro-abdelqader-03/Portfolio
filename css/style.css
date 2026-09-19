@@ -197,6 +197,11 @@ body {
     gap: 10px;
 }
 
+.skill-logo{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
 /* form seaction (contact me) */
 
 .name-email-form{
