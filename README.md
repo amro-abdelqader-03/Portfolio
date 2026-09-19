@@ -1,207 +1,47 @@
-# Amro Abdelqader — Personal Portfolio
+# Amro Abdelqader - Portfolio
 
-A modern, responsive personal portfolio website showcasing my background, technical skills, projects, and contact information as a **Full-Stack Developer and AI enthusiast**.
+A responsive personal portfolio website for showcasing my experience, projects, technical skills, and contact information as a Full-Stack Developer and AI enthusiast.
 
-The website is designed with a clean, dark-themed interface and focuses on presenting projects and professional information in a simple and engaging way.
+## Links
 
-## Live Website
+- [View Portfolio](https://amro-abdelqader-03.github.io/Portfolio/)
+- [View Figma Design](https://www.figma.com/design/6FVo2wefZZIr9PCHhe8Tm1/PROTOFILO?node-id=0-1&t=QZKRFMgiYHRJR3hD-1)
+- [GitHub](https://github.com/amro-abdelqader-03)
 
-**Portfolio:** `https://amro-abdelqader-03.github.io/Portfolio/`
+## Technologies
 
----
+- HTML5
+- CSS3
+- Bootstrap 5
+- Responsive Web Design
 
-## About the Project
+## How to Run the Project
 
-This portfolio was created to provide a central place to showcase my:
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` directly in a browser, or launch it with the Live Server extension.
 
-* Full-Stack development experience
-* AI and Machine Learning projects
-* Web development projects
-* Technical skills
-* Professional background
-* Contact information
-
-The website uses a responsive layout so it can be viewed across desktop, tablet, and mobile devices.
-
----
-
-## Features
-
-* Modern dark-themed design
-* Responsive layout
-* Navigation between portfolio sections
-* Personal introduction
-* Recent projects showcase
-* Contact form
-* Social media and professional links
-* Bootstrap-based responsive components
-* CSS animations and hover effects
-* Custom profile and interface icons
-
----
-
-## Website Sections
-
-### Home
-
-Introduces me as a **Full-Stack Developer** and highlights my interest in building modern digital experiences and AI-powered solutions.
-
-### About Me
-
-Provides a short professional overview covering my experience with:
-
-* Python
-* Laravel
-* React
-* APIs
-* Databases
-* Full-Stack development
-* AI-powered applications
-
-### Projects
-
-The portfolio currently showcases several projects:
-
-| Project                                 | Description                                                                                                                                         |
-| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Smart Coding Learning Website**       | AI-powered platform that helps developers improve frontend skills by recreating webpages from screenshots and receiving visual similarity feedback. |
-| **Smart Recipe Recommendation Website** | AI-powered recipe recommendation system based on ingredients, dietary requirements, cuisine, and cooking time.                                      |
-| **Smart Decoration Website**            | AI-powered interior design system that generates designs based on furniture images and preferred styles.                                            |
-| **RAGNAROK**                            | Real-time collaborative code editor designed for teams to edit and work on code together.                                                           |
-| **Green Guide System**                  | AI-powered agricultural assistant that provides farmers with information based on Jordanian agricultural knowledge through smart glasses.           |
-| **NEWS Recommendation System**          | Personalized news recommendation system that analyzes user preferences and news content.                                                            |
-| **AI Agent for Market Transactions**    | Autonomous AI agent that analyzes market data and makes transaction decisions based on available insights.                                          |
-
-### Get In Touch
-
-A contact section allows visitors to provide:
-
-* Name
-* Email
-* Message
-
-The footer also provides direct links to my professional and social platforms.
-
----
-
-## Technologies Used
-
-### Frontend
-
-* HTML5
-* CSS3
-* Bootstrap 5
-* Responsive Web Design
-
-### Development Tools
-
-* Git
-* GitHub
-* Visual Studio Code
-
-### Other Technologies
-
-The portfolio highlights projects involving technologies such as:
-
-* Python
-* React
-* Laravel
-* REST APIs
-* AI / Machine Learning
-* Databases
-
----
+No backend, package installation, or build step is required.
 
 ## Project Structure
 
 ```text
-portfolio/
-│
+Portfolio/
 ├── index.html
-│
+├── README.md
 ├── css/
 │   └── style.css
-│
 ├── assets/
-│   ├── myPhoto.png
-│   │
-│   └── icons/
-│       ├── WhatsApp.svg
-│       ├── Email.svg
-│       ├── LinkedIn.svg
-│       ├── GitHub.svg
-│       ├── circle-icon.svg
-│       ├── circle-robot-icon.svg
-│       └── Up Right.svg
-│
-└── README.md
+│   ├── education/
+│   ├── experience/
+│   ├── icons/
+│   └── skill/
+└── figma/
+	└── link
 ```
 
----
+## Contact
 
-## ⚙️ Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/amro-abdelqader-03/YOUR-REPOSITORY.git
-```
-
-### 2. Navigate to the project
-
-```bash
-cd YOUR-REPOSITORY
-```
-
-### 3. Open the website
-
-Since this is a static HTML/CSS website, no backend or package installation is required.
-
-You can simply open:
-
-```text
-index.html
-```
-
-in your browser.
-
-Alternatively, use **Live Server** in Visual Studio Code for a better development experience.
-
----
-
-## 📱 Responsive Design
-
-The website is designed to adapt to different screen sizes, including:
-
-* Desktop
-* Mobile
-* Tablet
-
-Bootstrap's responsive utilities are combined with custom CSS to control the layout and presentation across different viewport sizes.
-
----
-
-## Connect With Me
-
-**GitHub:**
-https://github.com/amro-abdelqader-03
-
-**LinkedIn:**
-https://www.linkedin.com/in/amroabdelgader/
-
-**Email:**
-[amro.abdelqader.03@gmail.com](mailto:amro.abdelqader.03@gmail.com)
-
-**WhatsApp:**
-https://wa.link/czrk86
-
----
-
-## Author
-
-**Amro Abdelqader**
-
-Full-Stack Developer
-
-Passionate about building practical software solutions, AI-powered applications, and modern web experiences.
-
+- [LinkedIn](https://www.linkedin.com/in/amroabdelgader/)
+- [Email](mailto:amro.abdelqader.03@gmail.com)
+- [WhatsApp](https://wa.link/czrk86)
