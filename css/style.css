@@ -55,7 +55,7 @@ body {
     background-color: var(--surface);
 }
 
-.navbar{
+.navbar {
     background-color: var(--page-bg);
     position: sticky;
     top: 0;
@@ -81,7 +81,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 
-.my-container{
+.my-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: var(--primary-text);
@@ -91,12 +91,12 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* photo card sec */
 
-.photo-card{
+.photo-card {
     background-color: var(--card-bg);
     width: 400px;
     height: 550px;
     margin: 0 auto;
-    border-radius: 16px; 
+    border-radius: 16px;
     position: sticky;
     top: 20px;
     align-self: start;
@@ -106,22 +106,22 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 .photo-card:hover {
-  transform: translateY(-8px);
+    transform: translateY(-8px);
 }
 
-.imag-icon{
+.imag-icon {
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 200px;
 }
 
-.circle-icon{
+.circle-icon {
     grid-column-start: 1;
     grid-template-rows: 1;
     z-index: 2;
 }
 
-.photo{
+.photo {
     border-radius: 16px;
     grid-column-start: 2;
     grid-template-rows: 2;
@@ -129,7 +129,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     margin-top: 40px;
 }
 
-.myName{
+.myName {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
@@ -140,7 +140,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* general sections */
 
-.card-description{
+.card-description {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -148,7 +148,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     margin: 0 20px;
 }
 
-.all-sec{
+.all-sec {
     animation: reveal linear both;
     animation-timeline: view();
     animation-range: entry 40% contain 80%;
@@ -156,7 +156,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     margin-bottom: 5%;
 }
 
-.sec-title{
+.sec-title {
     font-family: 'Poppins', sans-serif;
     font-size: 64px;
     font-weight: bold;
@@ -164,12 +164,12 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation: fadeOut 2.5s;
 }
 
-.sec-title-lword{
+.sec-title-lword {
     color: var(--muted-text);
     display: inline;
 }
 
-.sec-parg{
+.sec-parg {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -179,7 +179,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* info sections */
 
-.info-card{
+.info-card {
     display: grid;
     grid-template-columns: 80px 350px;
     width: 430px;
@@ -189,23 +189,23 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation: fadeOut 2.5s;
 }
 
-.info-photo{
+.info-photo {
     border-radius: 16px;
 }
 
 .info-card:hover {
-  transform: translateY(-8px);
+    transform: translateY(-8px);
     background-color: var(--surface);
 }
 
-.info-title{
+.info-title {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: var(--primary-text);
 }
 
-.info-name{
+.info-name {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -213,7 +213,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     margin-bottom: 0;
 }
 
-.info-parg{
+.info-parg {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: var(--muted-text);
@@ -221,7 +221,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* project section */
 
-.project-card{
+.project-card {
     display: grid;
     grid-template-columns: 500px 30px;
     animation: fadeOut 2.5s;
@@ -232,21 +232,21 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
+    transform: translateY(-8px);
     background-color: var(--surface);
 }
 
-.link{
+.link {
     text-decoration: none;
 }
 
-.project-title{
+.project-title {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
 
-.project-parg{
+.project-parg {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: var(--muted-text);
@@ -254,13 +254,13 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* skill section */
 
-.skill-contaier{
+.skill-contaier {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
 
-.skill-card{
+.skill-card {
     display: grid;
     grid-template-columns: 70px 100px;
     font-family: 'Poppins', sans-serif;
@@ -272,36 +272,36 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation: fadeOut 2.5s;
 }
 
-.skill-card:hover{
+.skill-card:hover {
     transform: translateY(-8px);
     background-color: var(--surface);
 }
 
-.skill-logo{
+.skill-logo {
     background-color: var(--card-bg);
     border-radius: 16px;
 }
 
-.skill-title{
+.skill-title {
     color: var(--primary-text);
     font-size: 16px;
     margin-bottom: 5px;
 }
 
-.skill-desc{
+.skill-desc {
     color: var(--muted-text);
     font-size: 14px;
 }
 
 /* form seaction (contact me) */
 
-.name-email-form{
+.name-email-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
 }
 
-.form-label{
+.form-label {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: var(--muted-text);
@@ -309,7 +309,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation: fadeOut 2.5s;
 }
 
-.form-input{
+.form-input {
     background-color: var(--input-bg);
     color: var(--primary-text);
     border: none;
@@ -319,7 +319,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation: fadeOut 2.5s;
 }
 
-.form-submit{
+.form-submit {
     background-color: var(--accent);
     width: 540px;
     text-align: center;
@@ -333,26 +333,29 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 /* animation */
 
 @keyframes fadeOut {
-  0% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes reveal {
-  from {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* handel small devices */
@@ -363,44 +366,46 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
         grid-template-columns: 1fr;
     }
 
-    .photo-card{
+    .photo-card {
         position: static;
     }
 
-    .sec-title{
+    .sec-title {
         text-align: center;
     }
 
-    .sec-parg{
+    .sec-parg {
         text-align: center;
         margin: 20px auto;
     }
 
-    .info-card{
+    .info-card {
         margin: 30px auto;
     }
 
-    .project-card{
+    .project-card {
         margin: 0 auto;
     }
 
-    .skill-contaier{
+    .skill-contaier {
         grid-template-columns: 1fr;
         margin: 0 auto;
         width: 40%;
     }
 
-    .name-email-form{
+    .name-email-form {
         grid-template-columns: 1fr;
     }
 
-    .form-input{
+    .form-input {
         margin: 0 auto;
     }
-    .form-label{
-        text-align:center;
+
+    .form-label {
+        text-align: center;
     }
-    .form-submit{
+
+    .form-submit {
         display: block;
         margin: 0 auto;
     }
@@ -408,7 +413,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 @media (max-width: 600px) {
-    .navbar{
+    .navbar {
         position: relative;
     }
 }
