@@ -152,6 +152,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation-timeline: view();
     animation-range: entry 40% contain 80%;
     margin-top: 20%;
+    margin-bottom: 5%;
 }
 
 .sec-title{
@@ -374,8 +375,18 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
         margin: 20px auto;
     }
 
+    .info-card{
+        margin: 30px auto;
+    }
+
     .project-card{
         margin: 0 auto;
+    }
+
+    .skill-contaier{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 40%;
     }
 
     .name-email-form{
@@ -391,5 +402,12 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     .form-submit{
         display: block;
         margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .navbar{
+        position: relative;
     }
 }
