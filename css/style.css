@@ -110,6 +110,7 @@ body {
     display: grid;
     border-radius: 16px;
     grid-template-columns: 80px 300px;
+    gap: 10px;
 }
 
 .education-title{
@@ -124,6 +125,7 @@ body {
     font-size: 12px;
     font-weight: bold;
     color: #9C9C9C;
+    margin-bottom: 0;
 }
 
 .education-parg{
