@@ -290,10 +290,6 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     background-color: var(--surface);
 }
 
-.skill-logo {
-    background-color: var(--card-bg);
-    border-radius: 16px;
-}
 
 .skill-title {
     color: var(--primary-text);
