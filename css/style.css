@@ -102,12 +102,21 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     position: sticky;
     top: 20px;
     align-self: start;
+}
+
+.photo-card,
+.info-card,
+.project-card,
+.skill-card {
     animation: fadeOut 2.5s;
     transform: translateY(0);
     transition: transform 0.5s;
 }
 
-.photo-card:hover {
+.photo-card:hover,
+.info-card:hover,
+.project-card:hover,
+.skill-card:hover {
     transform: translateY(-8px);
 }
 
@@ -156,14 +165,19 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     color: var(--primary-text);
     padding: 10px;
     border-radius: 15px;
-    animation: fadeOut 2.5s;
+}
+
+.card-description,
+.sec-title-lword,
+.info-name,
+.info-parg,
+.project-parg {
+    color: var(--muted-text);
 }
 
 .card-description {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: var(--muted-text);
     margin: 0 20px;
 }
 
@@ -173,27 +187,23 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     animation-range: entry 40% contain 80%;
     margin-top: 20%;
     margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sec-title {
-    font-family: 'Poppins', sans-serif;
     font-size: 64px;
     font-weight: bold;
     text-transform: uppercase;
-    animation: fadeOut 2.5s;
 }
 
 .sec-title-lword {
-    color: var(--muted-text);
     display: inline;
 }
 
 .sec-parg {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin-right: 100px;
-    animation: fadeOut 2.5s;
 }
 
 /* info sections */
@@ -204,9 +214,6 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     width: 430px;
     margin: 10px;
     gap: 10px 10px;
-    transform: translateY(0);
-    transition: transform 0.5s;
-    animation: fadeOut 2.5s;
 }
 
 .info-photo {
@@ -214,29 +221,23 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 .info-card:hover {
-    transform: translateY(-8px);
     background-color: var(--surface);
 }
 
 .info-title {
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: var(--primary-text);
 }
 
 .info-name {
-    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: bold;
-    color: var(--muted-text);
     margin-bottom: 0;
 }
 
 .info-parg {
-    font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    color: var(--muted-text);
     margin-top: 5px;
 }
 
@@ -245,15 +246,11 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 .project-card {
     display: grid;
     grid-template-columns: 500px 30px;
-    animation: fadeOut 2.5s;
     width: 530px;
     color: var(--primary-text);
-    transform: translateY(0);
-    transition: transform 0.5s;
 }
 
 .project-card:hover {
-    transform: translateY(-8px);
     background-color: var(--surface);
 }
 
@@ -262,15 +259,12 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 .project-title {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
 
 .project-parg {
-    font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    color: var(--muted-text);
 }
 
 /* skill section */
@@ -284,18 +278,13 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 .skill-card {
     display: flex;
     flex-direction: row;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: bold;
     gap: 10px;
     padding: 10px;
-    transform: translateY(0);
-    transition: transform 0.5s;
-    animation: fadeOut 2.5s;
 }
 
 .skill-card:hover {
-    transform: translateY(-8px);
     background-color: var(--surface);
 }
 
@@ -316,11 +305,8 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 .form-label {
-    font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    color: var(--muted-text);
     display: block;
-    animation: fadeOut 2.5s;
 }
 
 .form-input {
@@ -330,7 +316,6 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     border-radius: 8px;
     text-align: center;
     display: block;
-    animation: fadeOut 2.5s;
 }
 
 .form-submit {
@@ -341,6 +326,14 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     border: none;
     color: var(--primary-text);
     height: 30px;
+}
+
+.cv-btn a,
+.sec-title,
+.sec-parg,
+.form-label,
+.form-input,
+.form-submit {
     animation: fadeOut 2.5s;
 }
 
