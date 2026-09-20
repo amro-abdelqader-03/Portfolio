@@ -446,4 +446,8 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     .navbar {
         position: relative;
     }
+
+    .all-sec{
+        animation-range: entry 10% contain 90%;
+    }
 }
