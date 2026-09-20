@@ -198,6 +198,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     display: grid;
     grid-template-columns: 80px 350px;
     width: 430px;
+    margin: 10px;
     gap: 10px 10px;
     transform: translateY(0);
     transition: transform 0.5s;
@@ -232,6 +233,7 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: var(--muted-text);
+    margin-top: 5px;
 }
 
 /* project section */
