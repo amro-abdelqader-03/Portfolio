@@ -142,6 +142,10 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* general sections */
 
+#hero-sec {
+    margin-top: 0;
+}
+
 .cv-btn {
     margin-top: 20px;
 }
@@ -384,6 +388,16 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
     .photo-card {
         position: static;
+    }
+
+    #hero-sec {
+    margin-top: 100px
+    }
+
+    .cv-btn a{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .sec-title {
