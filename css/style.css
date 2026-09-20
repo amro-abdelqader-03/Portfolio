@@ -10,6 +10,7 @@
     --card-text: #000000;
     --input-bg: #434343;
     --accent: #0095ff;
+    --brightness: 1;
 }
 
 body:has(#theme-toggle:checked) {
@@ -22,6 +23,7 @@ body:has(#theme-toggle:checked) {
     --card-text: #ffffff;
     --input-bg: #ffffff;
     --accent: #006fbd;
+    --brightness: 0;
 }
 
 html {
@@ -334,6 +336,12 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
     color: var(--primary-text);
     height: 30px;
     animation: fadeOut 2.5s;
+}
+
+/* footer */
+
+.contect-icon {
+    filter: brightness(var(--brightness));
 }
 
 /* animation */
