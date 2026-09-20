@@ -140,6 +140,19 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* general sections */
 
+.cv-btn {
+    margin-top: 20px;
+}
+
+.cv-btn a{
+    text-decoration: none;
+    background-color: var(--accent);
+    color: var(--primary-text);
+    padding: 10px;
+    border-radius: 15px;
+    animation: fadeOut 2.5s;
+}
+
 .card-description {
     text-align: center;
     font-family: 'Poppins', sans-serif;
