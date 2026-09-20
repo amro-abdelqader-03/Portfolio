@@ -274,8 +274,8 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 }
 
 .skill-card {
-    display: grid;
-    grid-template-columns: 70px 100px;
+    display: flex;
+    flex-direction: row;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -295,12 +295,8 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 .skill-title {
     color: var(--primary-text);
     font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.skill-desc {
-    color: var(--muted-text);
-    font-size: 14px;
+    margin: 20px 5px;
+    text-align: center;
 }
 
 /* form seaction (contact me) */
