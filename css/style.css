@@ -243,11 +243,26 @@ body:has(#theme-toggle:checked) .theme-toggle-text::after {
 
 /* project section */
 
+.more-projects{
+    display: flex;
+    width: 530px;
+    text-decoration: none;
+    justify-content:end;
+    color: var(--primary-text);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.more-projects:hover{
+    color: var(--accent);
+}
+
 .project-card {
     display: grid;
     grid-template-columns: 500px 30px;
     width: 530px;
     color: var(--primary-text);
+    margin-top: 20px;
 }
 
 .project-card:hover {
